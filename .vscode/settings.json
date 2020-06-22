@@ -1,3 +1,6 @@
 {
-    "editor.fontFamily": "Operator Mono Light, Consolas, ‘Courier New’, monospace"
+    "editor.fontFamily": "Operator Mono Light, Consolas, ‘Courier New’, monospace",
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    }
 }
