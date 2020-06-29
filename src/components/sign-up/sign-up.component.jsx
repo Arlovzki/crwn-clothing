@@ -97,7 +97,7 @@ class SignUp extends React.Component {
                         required
                     />
                     <CustomButton type='submit'>  
-                        <i className="fa fa-check" aria-hidden="true"></i><span> Sign up </span>
+                       <span> <i className="fa fa-check" aria-hidden="true"></i> Sign up </span>
                     </CustomButton>
                 </form>
             </div>

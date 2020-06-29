@@ -12,8 +12,8 @@ const CollectionPreview = ({ title, items}) => (
                  items
                  .filter((item,idx) => idx < 4 )
                  // eslint-disable-next-line
-                 .map(({id, ... otheritemProps}) => (
-                     <CollectionItem key={id} {...otheritemProps}/>
+                 .map(item => (
+                     <CollectionItem key={item.id} item={item}/>
                  ))
              }
         </div>

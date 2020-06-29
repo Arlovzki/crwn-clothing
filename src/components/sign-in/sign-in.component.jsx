@@ -63,10 +63,10 @@ class SignIn extends React.Component {
           />
           <div className='buttons'>
             <CustomButton type='submit'> 
-                <i className="fa fa-sign-in" aria-hidden="true"></i><span> Sign in</span>
+               <span> <i className="fa fa-sign-in" aria-hidden="true"></i> Sign in</span>
             </CustomButton>
             <CustomButton onClick={signInWithGoogle} isGoogleSignIn>
-                <i className="fa fa-google" aria-hidden="true"></i><span> Sign in with Google</span>
+                <span> <i className="fa fa-google" aria-hidden="true"></i> Sign in with Google</span>
             </CustomButton>
           </div>
       
