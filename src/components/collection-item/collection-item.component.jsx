@@ -18,7 +18,7 @@ const { name, price, imageUrl} = item;
       />
       <div className='collection-footer'>
         <span className='name'>{name}</span>
-        <span className='price'>{price}</span>
+        <span className='price'>&#8369;{price}</span>
       </div>
       <CustomButton inverted onClick={ () => addItem(item)}>Add to Cart</CustomButton>
     </div>
